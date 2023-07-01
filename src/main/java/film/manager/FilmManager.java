@@ -1,7 +1,14 @@
-package org.example;
+package film.manager;
+
+import film.item.FilmItem;
+import film.repo.FilmRepository;
 
 public class FilmManager {
-    private Film[] films = new Film[0];
+    private FilmRepository repo;
+
+    public FilmManager(FilmRepository repo){
+        this.repo = repo;
+    }
     private int quantityLimit;
 
     public FilmManager(int quantityLimit) {
@@ -12,20 +19,9 @@ public class FilmManager {
        this.quantityLimit = 10;
     }
 
-    public void add(Film newFilm) {
-        Film[] tmp = new Film[films.length + 1];
-        for (int i = 0; i < films.length; i++) {
-            tmp[i] = films[i];
-        }
-        tmp[tmp.length - 1] = newFilm;
-        films = tmp;
-    }
 
-    public Film[] findAll() {
-        return films;
-    }
-
-    public Film[] showAddedFilms() {
+    public FilmItem[] showAddedFilms() {
+        FilmItem[] films = repo.findAll();
         int result;
         if (films.length < quantityLimit) {
             result = films.length;
@@ -33,7 +29,7 @@ public class FilmManager {
             result = quantityLimit;
         }
 
-        Film[] tmp = new Film[result];
+        FilmItem[] tmp = new FilmItem[result];
         for (int i = 0; i < tmp.length; i++) {
             tmp[i] = films[films.length - 1 - i];
         }
