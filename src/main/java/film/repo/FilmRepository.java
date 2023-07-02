@@ -5,8 +5,9 @@ import film.item.FilmItem;
 public class FilmRepository {
     private FilmItem[] films = new FilmItem[0];
 
-    public FilmItem[] findAll(){
+    public FilmItem[] findAll() {
         return films;
+
     }
 
     public void save(FilmItem film) {
@@ -18,11 +19,11 @@ public class FilmRepository {
         films = tmp;
     }
 
-    public void removeById(int id){
+    public void removeById(int id) {
         FilmItem[] tmp = new FilmItem[films.length - 1];
         int CopyToIndex = 0;
-        for (FilmItem film : films){
-            if (film.getId() != id){
+        for (FilmItem film : films) {
+            if (film.getId() != id) {
                 tmp[CopyToIndex] = film;
                 CopyToIndex++;
             }
@@ -31,18 +32,18 @@ public class FilmRepository {
         films = tmp;
     }
 
-    public FilmItem[] findById(int id){
+    public FilmItem[] findById(int id) {
         FilmItem[] tmp = new FilmItem[1];
-        for(FilmItem film : films){
-            if (film.getId() == id){
+        for (FilmItem film : films) {
+            if (film.getId() == id) {
                 tmp[0] = film;
             }
         }
-
-        return tmp;
+        films = tmp;
+        return films;
     }
 
-    public void removeAll(){
+    public void removeAll() {
         FilmItem[] tmp = new FilmItem[0];
         films = tmp;
     }
