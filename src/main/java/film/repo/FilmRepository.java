@@ -31,6 +31,20 @@ public class FilmRepository {
         films = tmp;
     }
 
+    public FilmItem[] findById(int id){
+        FilmItem[] tmp = new FilmItem[1];
+        for(FilmItem film : films){
+            if (film.getId() == id){
+                tmp[0] = film;
+            }
+        }
 
+        return tmp;
+    }
+
+    public void removeAll(){
+        FilmItem[] tmp = new FilmItem[0];
+        films = tmp;
+    }
 
 }
