@@ -6,17 +6,21 @@ import film.repo.FilmRepository;
 public class FilmManager {
     private FilmRepository repo;
 
-    public FilmManager(FilmRepository repo){
+    public FilmManager(FilmRepository repo) {
+
         this.repo = repo;
     }
+
     private int quantityLimit;
 
     public FilmManager(int quantityLimit) {
+
         this.quantityLimit = quantityLimit;
     }
 
     public FilmManager() {
-       this.quantityLimit = 10;
+
+        this.quantityLimit = 10;
     }
 
 
