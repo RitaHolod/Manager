@@ -5,13 +5,13 @@ import film.repo.FilmRepository;
 
 public class FilmManager {
     private FilmRepository repo;
+    private int quantityLimit;
 
     public FilmManager(FilmRepository repo) {
 
         this.repo = repo;
     }
 
-    private int quantityLimit;
 
     public FilmManager(int quantityLimit) {
 
@@ -27,6 +27,7 @@ public class FilmManager {
     public FilmItem[] showAddedFilms() {
         FilmItem[] films = repo.findAll();
         int result;
+//        int quantityLimit = 10;
         if (films.length < quantityLimit) {
             result = films.length;
         } else {

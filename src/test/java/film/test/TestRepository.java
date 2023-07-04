@@ -1,4 +1,5 @@
 package film.test;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -9,7 +10,7 @@ import film.repo.FilmRepository;
 public class TestRepository {
     FilmRepository repo = new FilmRepository();
 
-    FilmItem film1 = new FilmItem(1,"Бладшот", "боевик");
+    FilmItem film1 = new FilmItem(1, "Бладшот", "боевик");
     FilmItem film2 = new FilmItem(2, "Вперед", "мультфильм");
     FilmItem film3 = new FilmItem(3, "Белград", "комедия");
     FilmItem film4 = new FilmItem(4, "Джентельмены", "боевик");
@@ -29,38 +30,39 @@ public class TestRepository {
         repo.save(film7);
 
     }
+
     @Test
 
-    public void testFindAll(){
-        FilmItem[] expected = {film1, film2, film3, film4,film5,film6,film7};
+    public void testFindAll() {
+        FilmItem[] expected = {film1, film2, film3, film4, film5, film6, film7};
         FilmItem[] actual = repo.findAll();
 
         Assertions.assertArrayEquals(expected, actual);
     }
 
     @Test
-    public void testSave(){
-        FilmItem film8 = new FilmItem(8,"Буба","мультфильм");
+    public void testSave() {
+        FilmItem film8 = new FilmItem(8, "Буба", "мультфильм");
 
         repo.save(film8);
-        FilmItem[] expected = {film1, film2, film3, film4,film5,film6,film7,film8};
+        FilmItem[] expected = {film1, film2, film3, film4, film5, film6, film7, film8};
         FilmItem[] actual = repo.findAll();
 
-        Assertions.assertArrayEquals(expected,actual);
+        Assertions.assertArrayEquals(expected, actual);
     }
 
     @Test
-    public void testRemoveById(){
+    public void testRemoveById() {
         repo.removeById(7);
 
-        FilmItem[] expected = {film1, film2, film3, film4,film5,film6};
+        FilmItem[] expected = {film1, film2, film3, film4, film5, film6};
         FilmItem[] actual = repo.findAll();
 
-        Assertions.assertArrayEquals(expected,actual);
+        Assertions.assertArrayEquals(expected, actual);
     }
 
     @Test
-    public void testFindById(){
+    public void testFindById() {
         repo.findById(3);
 
         FilmItem[] expected = {film3};
@@ -70,7 +72,7 @@ public class TestRepository {
     }
 
     @Test
-    public void testRemoveAll(){
+    public void testRemoveAll() {
         repo.removeAll();
 
         FilmItem[] expected = {};

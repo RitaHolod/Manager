@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ffb7e9e5-adba-4f91-afc2-129e62973f6f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/film/manager/FilmManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/film/manager/FilmManager.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QjTRBUjlCtGcaNvhvkZmWkuEQP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/zoomy/IdeaProjects/Manager/src/test/java&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.TestRepository.testRemoveAll">
+    <configuration name="TestRepository.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaqamvn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="film.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="film.test" />
+      <option name="MAIN_CLASS_NAME" value="film.test.TestRepository" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRepository.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaqamvn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="film.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="film.test" />
+      <option name="MAIN_CLASS_NAME" value="film.test.TestRepository" />
+      <option name="METHOD_NAME" value="testFindById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRepository.testRemoveAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaqamvn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="film.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="film.test" />
+      <option name="MAIN_CLASS_NAME" value="film.test.TestRepository" />
+      <option name="METHOD_NAME" value="testRemoveAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRepository.testRemoveById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaqamvn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="film.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="film.test" />
+      <option name="MAIN_CLASS_NAME" value="film.test.TestRepository" />
+      <option name="METHOD_NAME" value="testRemoveById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRepository.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaqamvn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="film.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="film.test" />
+      <option name="MAIN_CLASS_NAME" value="film.test.TestRepository" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRepository.testRemoveAll" />
+        <item itemvalue="JUnit.TestRepository.testFindById" />
+        <item itemvalue="JUnit.TestRepository.testRemoveById" />
+        <item itemvalue="JUnit.TestRepository.testSave" />
+        <item itemvalue="JUnit.TestRepository.testFindAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffb7e9e5-adba-4f91-afc2-129e62973f6f" name="Changes" comment="" />
+      <created>1685865990925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685865990925</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.example.FilmManager" memberName="films" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="expected[3]" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
