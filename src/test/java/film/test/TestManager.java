@@ -41,6 +41,8 @@ public class TestManager {
 
     public void testShowAddedFilms() {
 
+        FilmManager manager = new FilmManager(10, repo);
+
         FilmItem[] MocRepo = {film1, film2, film3, film4, film5, film6, film7};
         doReturn(MocRepo).when(repo).findAll();
 

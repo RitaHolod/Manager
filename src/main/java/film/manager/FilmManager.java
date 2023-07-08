@@ -13,14 +13,15 @@ public class FilmManager {
     }
 
 
-    public FilmManager(int quantityLimit) {
+    public FilmManager(int quantityLimit, FilmRepository repo) {
 
         this.quantityLimit = quantityLimit;
+        this.repo = repo;
     }
 
     public FilmManager() {
 
-        this.quantityLimit = 10;
+        quantityLimit = 10;
     }
 
 
